@@ -83,9 +83,8 @@
 .colunaaround {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-left: 10%;
-  margin-right: 10%;
   margin-bottom: 10%;
 }
 
@@ -467,8 +466,10 @@
 }
 
 .enviar_review{
-  width: 10%;
-  justify-content: left;
+  justify-content: center;
+  width: 30%;
+  outline: black;
+  outline-width: 7px;
 }
 /* Style the navigation bar links */
 
@@ -565,6 +566,13 @@
 .Mandalorian{
   background-color: rgb(72, 22, 133);
   background-image: url(../img/mandalorian.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Brooklyn99{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/Brooklyn99.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
